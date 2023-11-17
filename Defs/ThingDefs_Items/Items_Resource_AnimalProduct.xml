@@ -8,7 +8,7 @@
     <description>Honey made by Cubees. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/InsectHoney</texPath>
+      <texPath>Things/Item/Resource/InsectHoney</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
