@@ -2,7 +2,7 @@
 <Defs>
   <!-- Honey -->
   <ThingDef ParentName="OrganicProductBase">
-    <defName>NovaCube_Cubee_Honey</defName>
+    <defName>InsectHoney</defName>
     <label>honey</label>
     <description>Honey made by Cubees. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
     <possessionCount>10</possessionCount>
