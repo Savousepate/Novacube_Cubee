@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<!-- Honey -->
+  <!-- Honey -->
   <ThingDef ParentName="OrganicProductBase">
-    <defName>InsectHoney</defName>
+    <defName>NovaCube_Cubee_Honey</defName>
     <label>honey</label>
     <description>Honey made by Cubees. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
     <possessionCount>10</possessionCount>
@@ -34,7 +33,7 @@
     <allowedArchonexusCount>100</allowedArchonexusCount>
   </ThingDef>
 
-<!-- Egg -->
+  <!-- Egg -->
   <ThingDef ParentName="EggFertBase">
     <defName>EggCubeeFertilized</defName>
     <label>Cubee egg (fert.)</label>
