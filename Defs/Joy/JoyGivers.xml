@@ -6,7 +6,7 @@
     <giverClass>JoyGiver_Ingest</giverClass>
     <baseChance>2.5</baseChance>
     <thingDefs>
-      <li>Honey</li>
+      <li>InsectHoney</li>
     </thingDefs>
     <joyKind>Gluttonous</joyKind>
     <requiredCapacities>
