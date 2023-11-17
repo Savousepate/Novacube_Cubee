@@ -21,7 +21,7 @@
         <eggCountRange>1~5</eggCountRange>
       </li>
       <li Class="CompProperties_Milkable">
-        <milkDef>Honey</milkDef>
+        <milkDef>InsectHoney</milkDef>
         <milkIntervalDays>3</milkIntervalDays>
         <milkAmount>10</milkAmount>
         <milkFemaleOnly>false</milkFemaleOnly>
@@ -68,7 +68,6 @@
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <lifeExpectancy>10</lifeExpectancy>
       <packAnimal>true</packAnimal>
       <trainability>None</trainability>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -89,7 +88,6 @@
         <li>
           <def>EusocialInsectAdult</def>
           <minAge>0.4</minAge>
-		  <reproductive>true</reproductive>
           <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
           <soundDeath>Pawn_Megascarab_Death</soundDeath>
           <soundCall>Pawn_Megascarab_Call</soundCall>
@@ -165,10 +163,10 @@
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
-        <dessicatedBodyGraphicData>
+        <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee_female</texPath>
           <drawSize>1.35</drawSize>
-        </dessicatedBodyGraphicData>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
           <drawSize>1.5</drawSize>
