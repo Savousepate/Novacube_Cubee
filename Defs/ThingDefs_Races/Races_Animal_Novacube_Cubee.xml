@@ -57,7 +57,7 @@
         </capacities>
         <power>25</power>
         <cooldownTime>100</cooldownTime>
-        <linkedBodyPartsGroup>Bottom</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>false</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>1</chanceFactor>
       </li>
@@ -115,7 +115,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Novacube_Cubee</defName>
     <label>Cubee</label>
-    <race>Cubee</race>
+    <race>Novacube_Cubee</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>

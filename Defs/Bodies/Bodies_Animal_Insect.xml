@@ -79,8 +79,9 @@
                 <li>
                   <def>Stinger</def>
                   <coverage>0.05</coverage>
+                  <depth>Outside</depth>
                   <groups>
-                    <li>Bottom</li>
+                    <li>Stinger</li>
                   </groups>
                 </li>
               </parts>
