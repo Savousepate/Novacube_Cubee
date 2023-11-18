@@ -3,7 +3,7 @@
   <ThingDef ParentName="BaseInsect">
     <defName>Novacube_Cubee</defName>
     <label>cubee</label>
-    <description>It's a cubee. What else?</description>
+    <description>cubee_description</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
@@ -87,37 +87,65 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.45</drawSize>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
+          <drawSize>0.45</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.60</drawSize>
         </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.60</drawSize>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.60</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
+          <drawSize>0.60</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.70</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
           </shadowData>
         </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.70</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.70</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
+          <drawSize>0.70</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
