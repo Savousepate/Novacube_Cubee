@@ -6,10 +6,9 @@
     <description>cubee_description</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <MarketValue>100</MarketValue>
+      <MarketValue>300</MarketValue>
+	    <ComfyTemperatureMin>10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
     <uiIconScale>2</uiIconScale>
@@ -41,9 +40,12 @@
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
-      <lifeExpectancy>10</lifeExpectancy>
-      <wildness>0.2</wildness>
-      <trainability>Intermediate</trainability>
+      <foodType>VegetableOrFruit, Plant, Kibble</foodType>
+      <lifeExpectancy>1</lifeExpectancy>
+      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+      <mateMtbHours>4</mateMtbHours>
+      <trainability>None</trainability>
+      <wildness>0.90</wildness>
       <lifeStageAges>
         <li>
           <def>EusocialInsectLarva</def>
