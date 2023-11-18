@@ -88,27 +88,27 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
-          <drawSize>1.25</drawSize>
+          <drawSize>0.60</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
-          <drawSize>1.25</drawSize>
+          <drawSize>0.60</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>0.70</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -116,7 +116,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>0.70</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
