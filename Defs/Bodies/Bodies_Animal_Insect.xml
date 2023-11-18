@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <BodyDef>
-    <defName>BeeLike</defName>
-    <label>bee-like</label>
+    <defName>NovaCube_CubeeLike</defName>
+    <label>cubee-like</label>
     <corePart>
+      <def>Shell</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <parts>
@@ -76,14 +76,6 @@
                     <li>Mouth</li>
                   </groups>
                 </li>
-                <li>
-                  <def>Stinger</def>
-                  <coverage>0.05</coverage>
-                  <depth>Outside</depth>
-                  <groups>
-                    <li>Stinger</li>
-                  </groups>
-                </li>
               </parts>
             </li>
           </parts>
@@ -127,5 +119,4 @@
       </parts>
     </corePart>
   </BodyDef>
-
 </Defs>

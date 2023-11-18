@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<!-- Caractéristiques générales de la Cubee -->
-	<ThingDef ParentName="BaseInsect">
+  <ThingDef ParentName="BaseInsect">
     <defName>Novacube_Cubee</defName>
-    <label>Cubee</label>
-    <description>Une imposante abeille à la tête carrée issue de la planète Novacube. De nature paisible et fragile, méfiez-vous tout de même de son puissant dard. Elle peut être élevée pour son miel au goût incomparable.</description>
+    <label>cubee</label>
+    <description>It's a cubee. What else?</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
-      <MarketValue>300</MarketValue>
-	  <ComfyTemperatureMin>10</ComfyTemperatureMin>
-      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>100</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
     </statBases>
-    <comps>
-      <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggCubeeFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>5</eggFertilizationCountMax>
-        <eggLayIntervalDays>20</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1~5</eggCountRange>
-      </li>
-      <li Class="CompProperties_Milkable">
-        <milkDef>InsectHoney</milkDef>
-        <milkIntervalDays>3</milkIntervalDays>
-        <milkAmount>10</milkAmount>
-        <milkFemaleOnly>false</milkFemaleOnly>
-      </li>
-    </comps>
     <uiIconScale>2</uiIconScale>
     <tools>
       <li>
@@ -49,33 +34,16 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
       </li>
-      <li>
-        <label>Stinger</label>
-        <capacities>
-          <li>Stab</li>
-          <li>ToxicBite</li>
-        </capacities>
-        <power>25</power>
-        <cooldownTime>100</cooldownTime>
-        <linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>false</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>1</chanceFactor>
-      </li>
     </tools>
     <race>
-      <body>BeeLike</body>
+      <body>NovaCube_CubeeLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
-      <foodType>VegetarianRoughAnimal</foodType>
-      <packAnimal>true</packAnimal>
-      <trainability>None</trainability>
-      <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
-      <wildness>2</wildness>
-      <roamMtbDays>7</roamMtbDays>
-      <mateMtbHours>8</mateMtbHours>
-      <lifeExpectancy>6</lifeExpectancy>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>10</lifeExpectancy>
+      <wildness>0.2</wildness>
+      <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
           <def>EusocialInsectLarva</def>
@@ -106,77 +74,54 @@
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
-      <li>AnimalUncommon</li>
-      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
   
-  <!-- Caractéristiques de la tamed Cubee -->
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Novacube_Cubee</defName>
-    <label>Cubee</label>
+    <label>cubee</label>
     <race>Novacube_Cubee</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
-        <label>Baby Cubee</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
           <drawSize>1</drawSize>
+          <color>(114,107,84)</color>
         </bodyGraphicData>
-        <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee_female</texPath>
-          <drawSize>0.8</drawSize>
-        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee_female</texPath>
-          <drawSize>0.8</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
-        <label>Teen Cubee</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
           <drawSize>1.25</drawSize>
+          <color>(114,107,84)</color>
         </bodyGraphicData>
-        <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee_female</texPath>
-          <drawSize>1.20</drawSize>
-        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee_female</texPath>
-          <drawSize>1.20</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee</texPath>
           <drawSize>1.5</drawSize>
+          <color>(114,107,84)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
-        <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Novacube_Cubee_female</texPath>
-          <drawSize>1.35</drawSize>
-        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Novacube_Cubee/Dessicated_Novacube_Cubee_female</texPath>
-          <drawSize>1.35</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
-
 </Defs>
