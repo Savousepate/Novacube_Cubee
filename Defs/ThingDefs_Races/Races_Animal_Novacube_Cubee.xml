@@ -26,6 +26,7 @@
       </li>
     </tools>
     <race>
+      <herdAnimal>true</herdAnimal>
       <body>NovaCube_CubeeLike</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
