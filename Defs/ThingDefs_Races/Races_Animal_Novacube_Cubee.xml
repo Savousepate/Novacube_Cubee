@@ -72,7 +72,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Novacube_Cubee</defName>
-    <label>cubee</label>
+    <label>cubee puet</label>
     <race>Novacube_Cubee</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
