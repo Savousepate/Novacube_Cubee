@@ -11,7 +11,15 @@
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
-    <uiIconScale>2</uiIconScale>
+    <uiIconScale>1.75</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>InsectHoney</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>5</milkAmount>
+        <!--<milkFemaleOnly>false</milkFemaleOnly>-->
+      </li>
+    </comps>
     <tools>
       <li>
         <label>stinger</label>
@@ -72,7 +80,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Novacube_Cubee</defName>
-    <label>cubee puet</label>
+    <label>cubee</label>
     <race>Novacube_Cubee</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
