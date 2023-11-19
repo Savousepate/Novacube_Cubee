@@ -96,6 +96,14 @@
           <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
           <drawSize>0.45</drawSize>
         </femaleGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
+          <drawSize>0.45</drawSize>
+        </corpseGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.45</drawSize>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.45</drawSize>
@@ -110,6 +118,14 @@
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.60</drawSize>
         </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.60</drawSize>
+        </femaleGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
+          <drawSize>0.60</drawSize>
+        </corpseGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
           <drawSize>0.60</drawSize>
@@ -139,6 +155,14 @@
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
           </shadowData>
+        </femaleGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
+          <drawSize>0.70</drawSize>
+        </corpseGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
+          <drawSize>0.70</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
