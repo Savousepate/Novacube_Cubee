@@ -79,7 +79,7 @@
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
-        <label>cubee_larva</label>
+        <label>cubee_baby</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.7</drawSize>
