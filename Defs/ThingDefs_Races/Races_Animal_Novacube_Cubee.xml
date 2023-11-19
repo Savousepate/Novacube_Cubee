@@ -11,7 +11,7 @@
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
-    <uiIconScale>2</uiIconScale>
+    <uiIconScale>1.75</uiIconScale>
     <tools>
       <li>
         <label>stinger</label>
