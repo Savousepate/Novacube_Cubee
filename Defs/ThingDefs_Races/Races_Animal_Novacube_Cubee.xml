@@ -33,6 +33,17 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
       </li>
+      <li>
+        <label>stinger</label>
+        <capacities>
+          <li>StabToxic</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>1</chanceFactor>
+      </li>
     </tools>
     <race>
       <body>NovaCube_CubeeLike</body>
@@ -78,7 +89,7 @@
       <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Novacube_Cubee</defName>
     <label>cubee</label>

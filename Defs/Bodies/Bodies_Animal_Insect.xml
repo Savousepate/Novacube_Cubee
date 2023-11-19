@@ -116,6 +116,13 @@
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
+        <li>
+          <def>Stinger</def>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>Stinger</li>
+          </groups>
+        </li>
       </parts>
     </corePart>
   </BodyDef>
