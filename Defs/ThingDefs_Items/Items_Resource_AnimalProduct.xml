@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <!-- Honey -->
   <ThingDef ParentName="OrganicProductBase">
     <defName>InsectHoney</defName>
@@ -20,6 +21,9 @@
       <Nutrition>0.07</Nutrition>
       <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
     </statBases>
+    <!--<statOffsets>
+      <Beauty>1</Beauty>
+    </statOffsets>-->
     <ingestible>
       <foodType>AnimalProduct</foodType>
       <preferability>MealFine</preferability>
