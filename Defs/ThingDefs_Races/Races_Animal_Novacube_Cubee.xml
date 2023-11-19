@@ -14,35 +14,15 @@
     <uiIconScale>2</uiIconScale>
     <tools>
       <li>
-        <label>mandibles</label>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.1</chanceFactor>
-      </li>
-      <li>
         <label>stinger</label>
         <capacities>
-          <li>StabToxic</li>
+          <li>ScratchToxic</li>
         </capacities>
-        <power>25</power>
+        <power>2</power>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>1</chanceFactor>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
