@@ -100,10 +100,6 @@
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
-          <drawSize>0.45</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
@@ -118,10 +114,6 @@
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.60</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
-          <drawSize>0.60</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
@@ -140,14 +132,14 @@
             <offset>(0,0,0)</offset>
           </shadowData>
         </femaleGraphicData>
+        <corpseGraphicData>
+          <texPath>Things/Pawn/Animal/Cubee/Corpse_Cubee</texPath>
+          <drawSize>1.0</drawSize>
+        </corpseGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
           <drawSize>0.70</drawSize>
         </dessicatedBodyGraphicData>
-        <femaleDessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee_female</texPath>
-          <drawSize>0.70</drawSize>
-        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
