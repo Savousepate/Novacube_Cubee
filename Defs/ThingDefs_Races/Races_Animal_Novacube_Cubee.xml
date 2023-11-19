@@ -82,44 +82,44 @@
         <label>cubee_larva</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
-          <drawSize>0.55</drawSize>
+          <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
-          <drawSize>0.55</drawSize>
+          <drawSize>0.7</drawSize>
         </femaleGraphicData>
         <corpseGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Corpse_Cubee</texPath>
-          <drawSize>0.55</drawSize>
+          <drawSize>0.7</drawSize>
         </corpseGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
-          <drawSize>0.55</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <label>cubee_juvenile</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>1</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>1</drawSize>
         </femaleGraphicData>
         <corpseGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Corpse_Cubee</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>1</drawSize>
         </corpseGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -127,7 +127,7 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee_female</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -135,11 +135,11 @@
         </femaleGraphicData>
         <corpseGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Corpse_Cubee</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
         </corpseGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Dessicated_Cubee</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
