@@ -94,6 +94,7 @@
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
+        <label>cubee_baby</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.7</drawSize>
@@ -112,6 +113,7 @@
         </dessicatedBodyGraphicData>
       </li>
       <li>
+        <label>cubee_juvenile</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>1</drawSize>
