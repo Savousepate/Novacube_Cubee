@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <!-- Honey -->
   <ThingDef ParentName="OrganicProductBase">
     <defName>InsectHoney</defName>
@@ -11,12 +12,18 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MarketValue>10</MarketValue>
       <Mass>0.025</Mass>
-      <Nutrition>0.05</Nutrition>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.07</Nutrition>
       <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
     </statBases>
+    <!--<statOffsets>
+      <Beauty>1</Beauty>
+    </statOffsets>-->
     <ingestible>
       <foodType>AnimalProduct</foodType>
       <preferability>MealFine</preferability>
@@ -40,8 +47,7 @@
     <description>A fertilized cubee egg. If all goes well, it should hatch into a baby cubee. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-      <color>(245,245,153)</color>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath><!-- EggCubee -->
       <drawSize>0.5</drawSize>
     </graphicData>
     <statBases>
@@ -49,7 +55,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
         <hatcherPawn>Novacube_Cubee</hatcherPawn>
       </li>
     </comps>

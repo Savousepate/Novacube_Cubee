@@ -7,8 +7,9 @@
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
       <MarketValue>300</MarketValue>
-	    <ComfyTemperatureMin>10</ComfyTemperatureMin>
+	  <ComfyTemperatureMin>10</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <FilthRate>0</FilthRate>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
     <uiIconScale>1.75</uiIconScale>
@@ -17,7 +18,13 @@
         <milkDef>InsectHoney</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>5</milkAmount>
-        <!--<milkFemaleOnly>false</milkFemaleOnly>-->
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggCubeeFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>5</eggFertilizationCountMax>
+        <eggLayIntervalDays>1</eggLayIntervalDays>
+        <eggCountRange>1~5</eggCountRange>
       </li>
     </comps>
     <tools>
@@ -47,15 +54,15 @@
       <wildness>0.90</wildness>
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>CubeeBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
+          <def>CubeeJuvenile</def>
           <minAge>0.03</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
+          <def>CubeeAdult</def>
           <minAge>0.4</minAge>
           <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
           <soundDeath>Pawn_Megascarab_Death</soundDeath>
@@ -87,7 +94,6 @@
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
-        <label>cubee_baby</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.7</drawSize>
@@ -106,7 +112,6 @@
         </dessicatedBodyGraphicData>
       </li>
       <li>
-        <label>cubee_juvenile</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>1</drawSize>
