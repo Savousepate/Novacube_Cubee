@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>Harvest_Honey</defName>
+    <label>harvesting honey</label>
+    <giverClass>WorkGiver_Harvest_Honey</giverClass>
+    <workType>Handling</workType>
+    <verb>harvest honey</verb>
+    <gerund>harvesting honey</gerund>
+    <priorityInType>90</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>
