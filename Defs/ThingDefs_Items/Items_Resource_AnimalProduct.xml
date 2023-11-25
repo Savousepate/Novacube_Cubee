@@ -43,16 +43,15 @@
     <description>A fertilized cubee egg. If all goes well, it should hatch into a baby cubee. It can be eaten raw, but it's much better cooked.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-      <color>(245,245,153)</color>
-      <drawSize>0.5</drawSize>
+      <texPath>Things/Item/Resource/EggCubee</texPath>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>20.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
         <hatcherPawn>Novacube_Cubee</hatcherPawn>
       </li>
     </comps>

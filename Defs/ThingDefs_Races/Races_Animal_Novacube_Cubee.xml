@@ -20,6 +20,12 @@
         <milkAmount>5</milkAmount>
         <milkFemaleOnly>false</milkFemaleOnly>
       </li>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggCubeeFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>4</eggLayIntervalDays>
+        <eggCountRange>1~2</eggCountRange>
+      </li>
     </comps>
     <tools>
       <li>
@@ -49,15 +55,15 @@
       <wildness>0.90</wildness>
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>CubeeBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
+          <def>CubeeJuvenile</def>
           <minAge>0.03</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
+          <def>CubeeAdult</def>
           <minAge>0.4</minAge>
           <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
           <soundDeath>Pawn_Megascarab_Death</soundDeath>
