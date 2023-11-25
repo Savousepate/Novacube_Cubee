@@ -11,10 +11,13 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MarketValue>10</MarketValue>
       <Mass>0.025</Mass>
-      <Nutrition>0.05</Nutrition>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.07</Nutrition>
       <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
     </statBases>
     <ingestible>
