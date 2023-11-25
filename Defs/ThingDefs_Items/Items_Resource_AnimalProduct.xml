@@ -48,7 +48,7 @@
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/EggCubee</texPath>
-      <drawSize>0.5</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>20.0</MarketValue>

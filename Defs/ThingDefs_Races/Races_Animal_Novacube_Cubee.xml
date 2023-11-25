@@ -22,9 +22,9 @@
       </li>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>EggCubeeFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>5</eggFertilizationCountMax>
-        <eggLayIntervalDays>1</eggLayIntervalDays>
-        <eggCountRange>1~5</eggCountRange>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>4</eggLayIntervalDays>
+        <eggCountRange>1~2</eggCountRange>
       </li>
     </comps>
     <tools>
@@ -64,10 +64,10 @@
         <li>
           <def>CubeeAdult</def>
           <minAge>0.4</minAge>
-          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-          <soundDeath>Pawn_Megascarab_Death</soundDeath>
-          <soundCall>Pawn_Megascarab_Call</soundCall>
-          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+          <!--<soundWounded>Pawn_Cubee_Wounded</soundWounded>
+          <soundDeath>Pawn_Cubee_Death</soundDeath>
+          <soundCall>Pawn_Cubee_Call</soundCall>
+          <soundAngry>Pawn_Cubee_Angry</soundAngry>-->
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
