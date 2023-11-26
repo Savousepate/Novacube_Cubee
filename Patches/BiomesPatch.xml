@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.5</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.5</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.15</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.1</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.07</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.08</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.2</Novacube_Cubee>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Novacube_Cubee>0.2</Novacube_Cubee>
+        </value>
+    </Operation>
+</Patch>
