@@ -93,6 +93,7 @@
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
+    <wildGroupSize>3~7</wildGroupSize>
     <lifeStages>
       <li>
         <label>cubee_baby</label>
