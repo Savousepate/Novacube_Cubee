@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
   <BodyPartDef>
-    <defName>Stinger</defName>
+    <defName>Novacube_Cubee_Stinger</defName>
     <label>stinger</label>
     <hitPoints>15</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
@@ -11,5 +10,4 @@
     <alive>false</alive>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
-
 </Defs>

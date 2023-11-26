@@ -15,13 +15,13 @@
     <uiIconScale>1.75</uiIconScale>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>InsectHoney</milkDef>
+        <milkDef>NovaCube_CubeeHoney</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>5</milkAmount>
         <milkFemaleOnly>false</milkFemaleOnly>
       </li>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggCubeeFertilized</eggFertilizedDef>
+        <eggFertilizedDef>NovaCube_EggCubeeFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>4</eggLayIntervalDays>
         <eggCountRange>1~2</eggCountRange>
@@ -35,7 +35,7 @@
         </capacities>
         <power>2</power>
         <cooldownTime>1</cooldownTime>
-        <linkedBodyPartsGroup>Stinger</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Novacube_Cubee_Stinger</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -55,20 +55,20 @@
       <wildness>0.90</wildness>
       <lifeStageAges>
         <li>
-          <def>CubeeBaby</def>
+          <def>NovaCube_CubeeBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>CubeeJuvenile</def>
+          <def>NovaCube_CubeeJuvenile</def>
           <minAge>0.03</minAge>
         </li>
         <li>
-          <def>CubeeAdult</def>
+          <def>NovaCube_CubeeAdult</def>
           <minAge>0.4</minAge>
-          <soundWounded>Pawn_Cubee_Wounded</soundWounded>
-          <soundDeath>Pawn_Cubee_Death</soundDeath>
-          <soundCall>Pawn_Cubee_Call</soundCall>
-          <soundAngry>Pawn_Cubee_Angry</soundAngry>
+          <soundWounded>NovaCube_Pawn_Cubee_Wounded</soundWounded>
+          <soundDeath>NovaCube_Pawn_Cubee_Death</soundDeath>
+          <soundCall>NovaCube_Pawn_Cubee_Call</soundCall>
+          <soundAngry>NovaCube_Pawn_Cubee_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>

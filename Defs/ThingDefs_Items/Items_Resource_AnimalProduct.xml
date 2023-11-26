@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Honey -->
   <ThingDef ParentName="OrganicProductBase">
-    <defName>InsectHoney</defName>
+    <defName>NovaCube_CubeeHoney</defName>
     <label>honey</label>
-    <description>Honey made by Cubees. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
+    <description>NovaCube_CubeeHoney_description</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Resource/InsectHoney</texPath>
+      <texPath>Things/Item/Resource/CubeeHoney</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
@@ -36,11 +35,10 @@
     <allowedArchonexusCount>100</allowedArchonexusCount>
   </ThingDef>
 
-  <!-- Egg -->
   <ThingDef ParentName="EggFertBase">
-    <defName>EggCubeeFertilized</defName>
-    <label>Cubee egg (fert.)</label>
-    <description>A fertilized cubee egg. If all goes well, it should hatch into a baby cubee. It can be eaten raw, but it's much better cooked.</description>
+    <defName>NovaCube_EggCubeeFertilized</defName>
+    <label>NovaCube_EggCubeeFertilized_label</label>
+    <description>NovaCube_EggCubeeFertilized_description</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/EggCubee</texPath>
@@ -56,5 +54,4 @@
       </li>
     </comps>
   </ThingDef>
-
 </Defs>
