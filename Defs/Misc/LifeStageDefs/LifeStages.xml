@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <LifeStageDef>
-    <defName>CubeeBaby</defName>
+    <defName>NovaCube_CubeeBaby</defName>
     <label>baby</label>
     <voxPitch>1.6</voxPitch>
     <voxVolume>0.4</voxVolume>
@@ -18,7 +17,7 @@
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>CubeeJuvenile</defName>
+    <defName>NovaCube_CubeeJuvenile</defName>
     <label>juvenile</label>
     <voxPitch>1.2</voxPitch>
     <bodySizeFactor>0.5</bodySizeFactor>
@@ -33,11 +32,10 @@
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>CubeeAdult</defName>
+    <defName>NovaCube_CubeeAdult</defName>
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
     <milkable>true</milkable>
   </LifeStageDef>
-  
 </Defs>

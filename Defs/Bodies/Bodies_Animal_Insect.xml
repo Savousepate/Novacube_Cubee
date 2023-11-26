@@ -117,10 +117,10 @@
           <height>Bottom</height>
         </li>
         <li>
-          <def>Stinger</def>
+          <def>Novacube_Cubee_Stinger</def>
           <coverage>0.05</coverage>
           <groups>
-            <li>Stinger</li>
+            <li>Novacube_Cubee_Stinger</li>
           </groups>
         </li>
       </parts>

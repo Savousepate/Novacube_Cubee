@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <SoundDef>
-    <defName>Pawn_Cubee_Call</defName>
+    <defName>NovaCube_Pawn_Cubee_Call</defName>
     <context>MapOnly</context>
     <subSounds>
       <li>
@@ -19,7 +18,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Pawn_Cubee_Angry</defName>
+    <defName>NovaCube_Pawn_Cubee_Angry</defName>
     <context>MapOnly</context>
     <subSounds>
       <li>
@@ -37,7 +36,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Pawn_Cubee_Death</defName>
+    <defName>NovaCube_Pawn_Cubee_Death</defName>
     <context>MapOnly</context>
     <subSounds>
       <li>
@@ -54,7 +53,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>Pawn_Cubee_Wounded</defName>
+    <defName>NovaCube_Pawn_Cubee_Wounded</defName>
     <context>MapOnly</context>
     <subSounds>
       <li>
@@ -69,5 +68,4 @@
       </li>
     </subSounds>
   </SoundDef>
-
 </Defs>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--cubee-like-->
+  <NovaCube_CubeeLike.label>cubee-like</NovaCube_CubeeLike.label>
+  <!--left elytra-->
+  <NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>left elytra</NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>
+  <!--right elytra-->
+  <NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>right elytra</NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>
+  <!--left eye-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>left eye</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>
+  <!--right eye-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>right eye</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>
+  <!--left antenna-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>left antenna</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
+  <!--right antenna-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>right antenna</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
+  <!--front left leg-->
+  <NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>front left leg</NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>
+  <!--front right leg-->
+  <NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>front right leg</NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>
+  <!--middle left leg-->
+  <NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>middle left leg</NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>
+  <!--middle right leg-->
+  <NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>middle right leg</NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>
+  <!--rear left leg-->
+  <NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>rear left leg</NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>
+  <!--rear right leg-->
+  <NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>rear right leg</NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>
+  <!--cubee-like-->
+  <NovaCube_CubeeLike.label>cubee-like</NovaCube_CubeeLike.label>
+  <!--left elytra-->
+  <NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>left elytra</NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>
+  <!--right elytra-->
+  <NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>right elytra</NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>
+  <!--left eye-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>left eye</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>
+  <!--right eye-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>right eye</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>
+  <!--left antenna-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>left antenna</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
+  <!--right antenna-->
+  <NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>right antenna</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
+  <!--front left leg-->
+  <NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>front left leg</NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>
+  <!--front right leg-->
+  <NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>front right leg</NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>
+  <!--middle left leg-->
+  <NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>middle left leg</NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>
+  <!--middle right leg-->
+  <NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>middle right leg</NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>
+  <!--rear left leg-->
+  <NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>rear left leg</NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>
+  <!--rear right leg-->
+  <NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>rear right leg</NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>
+</LanguageData>

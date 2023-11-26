@@ -3,7 +3,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/JoyGiverDef[defName="EatChocolate"]/thingDefs</xpath>
         <value>
-            <li>InsectHoney</li>
+            <li>NovaCube_CubeeHoney</li>
         </value>
     </Operation>
 </Patch>
