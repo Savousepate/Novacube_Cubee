@@ -8,7 +8,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Cubee/Cubee_Call</clipFolderPath>
+            <clipFolderPath>Pawns/Cubee/Cubee_Call</clipFolderPath>
           </li>
         </grains>
         <volumeRange>14~14</volumeRange>
@@ -25,7 +25,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Cubee/Cubee_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/Cubee/Cubee_Angry</clipFolderPath>
           </li>
         </grains>
         <volumeRange>25~25</volumeRange>
@@ -43,7 +43,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Cubee/Cubee_Angry</clipFolderPath>
+            <clipFolderPath>Pawns/Cubee/Cubee_Death</clipFolderPath>
           </li>
         </grains>
         <volumeRange>25~25</volumeRange>
@@ -60,7 +60,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Pawn/Animal/Cubee/Cubee_Wounded</clipFolderPath>
+            <clipFolderPath>Pawns/Cubee/Cubee_Wounded</clipFolderPath>
           </li>
         </grains>
         <volumeRange>21~21</volumeRange>
