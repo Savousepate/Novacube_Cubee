@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef ParentName="OrganicProductBase">
     <defName>NovaCube_CubeeHoney</defName>
-    <label>honey</label>
-    <description>NovaCube_CubeeHoney_description</description>
+    <label>cubee honey</label>
+    <description>Cubee honey renowned for its incomparable taste bringing a little joy to anyone who consumes it.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/CubeeHoney</texPath>
@@ -37,8 +37,8 @@
 
   <ThingDef ParentName="EggFertBase">
     <defName>NovaCube_EggCubeeFertilized</defName>
-    <label>NovaCube_EggCubeeFertilized_label</label>
-    <description>NovaCube_EggCubeeFertilized_description</description>
+    <label>cubee egg (fert.)</label>
+    <description>Cubee egg that will give birth to a baby Cubee once it reaches maturity.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Resource/EggCubee</texPath>
