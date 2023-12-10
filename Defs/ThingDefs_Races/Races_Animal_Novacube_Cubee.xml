@@ -3,7 +3,7 @@
   <ThingDef ParentName="BaseInsect">
     <defName>Novacube_Cubee</defName>
     <label>cubee</label>
-    <description>cubee_description</description>
+    <description>Cute square-headed bee, Novacube mascot. Its very painful sting can be poisonous. It can be bred for its honey with its incomparable taste.</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
       <MarketValue>300</MarketValue>
@@ -96,7 +96,7 @@
     <wildGroupSize>3~7</wildGroupSize>
     <lifeStages>
       <li>
-        <label>cubee_baby</label>
+        <label>baby</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>0.7</drawSize>
@@ -115,7 +115,7 @@
         </dessicatedBodyGraphicData>
       </li>
       <li>
-        <label>cubee_juvenile</label>
+        <label>juvenile</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cubee/Cubee</texPath>
           <drawSize>1</drawSize>
