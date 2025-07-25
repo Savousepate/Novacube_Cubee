@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- EN: adult -->
+<NovaCube_CubeeAdult.label>adulte</NovaCube_CubeeAdult.label>
+
+<!-- EN: baby -->
+<NovaCube_CubeeBaby.label>bébé</NovaCube_CubeeBaby.label>
+
+<!-- EN: juvenile -->
+<NovaCube_CubeeJuvenile.label>juvénile</NovaCube_CubeeJuvenile.label>
+
+
+</LanguageData>

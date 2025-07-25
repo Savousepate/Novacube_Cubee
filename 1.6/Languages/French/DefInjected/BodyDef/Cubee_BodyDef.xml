@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- EN: cubee-like -->
+<NovaCube_CubeeLike.label>type d'abeille</NovaCube_CubeeLike.label>
+<!-- EN: left elytra -->
+<NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>aile gauche</NovaCube_CubeeLike.corePart.parts.left_elytra.customLabel>
+<!-- EN: right elytra -->
+<NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>aile droite</NovaCube_CubeeLike.corePart.parts.right_elytra.customLabel>
+<!-- EN: left eye -->
+<NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>oeil gauche</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>
+<!-- EN: right eye -->
+<NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>oeil droit</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>
+<!-- EN: left antenna -->
+<NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>antenne gauche</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
+<!-- EN: right antenna -->
+<NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>antenne droite</NovaCube_CubeeLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
+<!-- EN: front left leg -->
+<NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>patte avant gauche</NovaCube_CubeeLike.corePart.parts.front_left_leg.customLabel>
+<!-- EN: front right leg -->
+<NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>patte avant droite</NovaCube_CubeeLike.corePart.parts.front_right_leg.customLabel>
+<!-- EN: middle left leg -->
+<NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>patte centrale gauche</NovaCube_CubeeLike.corePart.parts.middle_left_leg.customLabel>
+<!-- EN: middle right leg -->
+<NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>patte centrale droite</NovaCube_CubeeLike.corePart.parts.middle_right_leg.customLabel>
+<!-- EN: rear left leg -->
+<NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>patte arrière gauche</NovaCube_CubeeLike.corePart.parts.rear_left_leg.customLabel>
+<!-- EN: rear right leg -->
+<NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>patte arrière droite</NovaCube_CubeeLike.corePart.parts.rear_right_leg.customLabel>
+
+
+</LanguageData>

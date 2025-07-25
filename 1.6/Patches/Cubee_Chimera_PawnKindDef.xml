@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Pour la Cubee chimère. -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Anomaly</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/PawnKindDef[defName="Chimera"]/alternateGraphics</xpath>
+                <value>
+                    <li>
+                        <texPath>Things/Pawn/Chimera/Chimera_Cubee</texPath>
+                        <dessicatedTexPath>Things/Pawn/Chimera/Dessicated/DessicatedChimera_Cubee</dessicatedTexPath>
+                        <dessicatedGraphicData>
+                            <attachPoints>
+                            <li>
+                                <offset>(-.2, 0, .7)</offset>
+                                <type>PlatformRestraint0</type>
+                            </li>
+                            <li>
+                                <offset>(.2, 0, .7)</offset>
+                                <type>PlatformRestraint1</type>
+                            </li>
+                            <li>
+                                <offset>(.3, 0, -.8)</offset>
+                                <type>PlatformRestraint2</type>
+                            </li>
+                            <li>
+                                <offset>(-.3, 0, -.8)</offset>
+                                <type>PlatformRestraint3</type>
+                            </li>
+                            </attachPoints>
+                        </dessicatedGraphicData> 
+                        <attachPoints>
+                            <li>
+                                <offset>(-.4, 0, .5)</offset>
+                                <type>PlatformRestraint0</type>
+                            </li>
+                            <li>
+                                <offset>(.35, 0, .5)</offset>
+                                <type>PlatformRestraint1</type>
+                            </li>
+                            <li>
+                                <offset>(.5, 0, -.7)</offset>
+                                <type>PlatformRestraint2</type>
+                            </li>
+                            <li>
+                                <offset>(-.5, 0, -.7)</offset>
+                                <type>PlatformRestraint3</type>
+                            </li>
+                        </attachPoints>
+                    </li>
+                </value>
+            </li>
+
+        </operations>
+        </match>
+    </Operation>
+
+</Patch>

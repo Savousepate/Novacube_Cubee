@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- EN: Cubee honey -->
+<NovaCube_CubeeHoney.label>miel de cubee</NovaCube_CubeeHoney.label>
+<!-- EN: Cubee honey renowned for its incomparable taste bringing a little joy to anyone who consumes it. -->
+<NovaCube_CubeeHoney.description>Miel de cubee réputé pour son goût incomparable apportant un peu de joie à quiconque le consomme.</NovaCube_CubeeHoney.description>
+
+<!-- EN: Cubee egg (fert.) -->
+<NovaCube_EggCubeeFertilized.label>œuf de cubee (fécondé)</NovaCube_EggCubeeFertilized.label>
+<!-- EN: Cubee egg that will give birth to a baby Cubee once it reaches maturity. -->
+<NovaCube_EggCubeeFertilized.description>Un œuf de cubee fécondé. Si tout se passe bien, il devrait éclore en un bébé cubee. Il peut être mangé cru, mais il est bien meilleur cuit.</NovaCube_EggCubeeFertilized.description>
+
+<!-- EN: Cubee egg (unfert.) -->
+<NovaCube_EggUnfertilizedDef.label>œuf de cubee (non fécondé)</NovaCube_EggUnfertilizedDef.label>
+<!-- EN: An unfertilized Cubee egg. -->
+<NovaCube_EggUnfertilizedDef.description>Un œuf de cubee non fécondé. Il peut être mangé cru, mais il est bien meilleur cuit.</NovaCube_EggUnfertilizedDef.description>
+
+
+<!-- EN: Cubee -->
+<Novacube_Cubee.label>cubee</Novacube_Cubee.label>
+<!-- EN: Cute square-headed bee, Novacube mascot. Its very painful sting can be poisonous. It can be bred for its honey with its incomparable taste. -->
+<Novacube_Cubee.description>Espèce d'abeille mignonne à tête carrée, mascotte de Novacube. Sa piqûre très douloureuse peut empoisonner. Elle peut être élevée pour son miel au goût incomparable.</Novacube_Cubee.description>
+<!-- EN: stinger -->
+<Novacube_Cubee.tools.stinger.label>dard</Novacube_Cubee.tools.stinger.label>
+
+
+</LanguageData>
